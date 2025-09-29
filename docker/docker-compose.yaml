@@ -921,7 +921,7 @@ services:
       - api
       - web
     ports:
-      - "${EXPOSE_NGINX_PORT:-80}:${NGINX_PORT:-80}"
+      - "80:80"
       
 
   # The Weaviate vector store.
